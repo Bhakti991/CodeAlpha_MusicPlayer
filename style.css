@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.player {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+}
+
+.controls button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.progress-container,
+.volume-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+input[type=range] {
+  width: 100%;
+}
+
+.playlist ul {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.playlist li.active {
+  background: #444;
+  border-radius: 5px;
+}
